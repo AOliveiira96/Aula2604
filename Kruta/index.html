@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <style>
+        .navbar-brand{
+            margin-right: 50%;
+            margin-left: 3%;
+        }
+        .TemaIlha{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 0px;
+            margin-top: 5px;
+        }
+        .PIlha{
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 0.7px;
+            font-size: 16px;
+            text-align: justify;
+            width: 50%;
+        }
+        .TemaJoao{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 0px;
+            margin-top: 5px;
+        }
+        .PJoao{
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 0.7px;
+            font-size: 16px;
+            text-align: justify;
+            width: 50%;
+        }
+        .TemaFoz{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-bottom: 0px;
+            margin-top: 5px;
+        }
+        .PFoz{
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 0.7px;
+            font-size: 16px;
+            text-align: justify;
+            width: 50%;
+        }
+        
+        .destinos{
+            font-size: 40px;
+            font-family:Tahoma, sans-serif;
+            letter-spacing: 1px;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+
+        #carouselExampleIndicators{
+            background-color: rgb(224, 224, 224);
+        }
+        .carousel-inner{
+            width: 70%;
+        }
+        .carousel-indicators{
+           height: 30%;
+           margin-left: -15%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="Arquivos/image-removebg-preview.png" alt="Logotipo JK" height= "125px"; width="250px" class="navbar-brand">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Destinos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Preços</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <p class="destinos">
+            Destinos
+        </p>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Arquivos/lagoa-azul.jpg" class="d-block w-100" alt="Lago Azul - Praia do Rio de Janeiro em Angra dos Reis">
+            <p class="TemaIlha">
+                Ilha Grande
+            </p>
+            <p class="PIlha">
+                A <strong>Ilha Grande</strong> é um arquipélago situado no município de <strong>Angra dos Reis</strong>,
+                 litoral sul do Rio de Janeiro. Possui 193 km2 e mais de 100 praias de 
+                 águas verdes-azuladas, vegetação exuberante formada pela Mata Atlântica, 
+                 trilhas cheias de aventuras, animais silvestres, clima tropical o ano inteiro e povo acolhedor.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <img src="Arquivos/joao-pessoa-paraiba.jpg" class="d-block w-100" alt="João Pessoa - Paraíba">
+            <p class="TemaJoao">
+                João Pessoa
+            </p>
+            <p class="PJoao">
+                <strong>João Pessoa ou “Jampa”</strong>, como é chamada por seus moradores, 
+                é uma cidade que combina tranquilidade e beleza. Quem viaja à 
+                capital paraibana logo percebe seu ritmo desacelerado, que 
+                permite desfrutar de pequenos prazeres, como caminhar na areia e, 
+                sem esforços, mergulhar em um mar de tons esverdeados. A orla da cidade, 
+                com edifícios baixos e toda a proximidade da praia que um visitante merece, é um convite para relaxar.
+            </p>
+          </div>
+          <div class="carousel-item">
+            <img src="Arquivos/002-–-Cataratas-do-Iguacu-e1663260066395.jpg" class="d-block w-100" alt="Cataratas do Igua/çu">
+            <p class="TemaFoz">
+                Foz do Iguaçu
+            </p>
+            <p class="PFoz">
+                Foz do Iguaçu, localizada no Paraná, é uma cidade cheia de atrações e 
+                que tem a honra de guardar um dos mais belos espetáculos da natureza na Terra, 
+                as <strong>Cataratas do Iguaçu</strong>. Todo o crédito pertence ao Rio Iguaçu, na fronteira entre Brasil e Argentina e 
+                presenteia ambos os países com as Cataratas — um cenário natural perfeito, com as mais lindas quedas d'água do planeta. 
+            </p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</body>
+</html>
